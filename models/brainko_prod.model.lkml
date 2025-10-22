@@ -90,3 +90,12 @@ explore: tipo {
     }
 }
 
+explore: cliente1 {
+  label: "Cliente"
+  description: "Cliente y su empresa"
+
+  join: empresa1 {
+    sql_on: ${cliente1.id_empresa}=${empresa1.id_empresa} ;;
+    relationship: many_to_one
+  }
+}
