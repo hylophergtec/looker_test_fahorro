@@ -91,7 +91,7 @@ explore: tipo {
 }
 
 explore: cliente1 {
-  label: "Cliente"
+  label: "ClienteEmpresa"
   description: "Cliente y su empresa"
 
   join: empresa1 {
