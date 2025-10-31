@@ -20,5 +20,6 @@ view: cliente1 {
   measure: count {
     type: count
   }
+####
 
 }
